@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: beige;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1,
@@ -30,6 +31,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -52,19 +54,29 @@ nav a:hover {
     color: darkred;
 }
 
+.current {
+    color: darkred;
+}
+
+.announcement {
+    background: darkred;
+    color: white;
+}
+
 #banner {
-    width: 100%;
+    width: 20%;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 20%;
     height: auto;
 }
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
